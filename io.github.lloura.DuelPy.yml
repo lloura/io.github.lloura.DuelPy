@@ -17,4 +17,4 @@ modules:
       - type: git
         url: https://github.com/lloura/DuelPy.git
         tag: v0.3.2
-        commit: 1ff453a690572d29564fd73f7b4f162d0d38a259
+        commit: 7f87730b2be7d929377f01be9d1fa2b58e1b81f7
