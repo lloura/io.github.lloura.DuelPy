@@ -10,6 +10,14 @@ finish-args:
   - --share=ipc
   - --device=dri
 
+cleanup:
+  - /include
+  - /lib/pkgconfig
+  - /share/pkgconfig
+  - /share/man
+  - "*.la"
+  - "*.a"
+
 modules:
   - name: duelpy
     buildsystem: meson
@@ -17,4 +25,4 @@ modules:
       - type: git
         url: https://github.com/lloura/DuelPy.git
         tag: v0.3.2
-        commit: 7f87730b2be7d929377f01be9d1fa2b58e1b81f7
+        commit: 37048f2b549062369a9c4c49987f255a7354842a
